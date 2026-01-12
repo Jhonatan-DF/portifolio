@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
 
     <title>Jhonatan Dias Franco - Desenvolvedor Web - Frontend</title>
   </head>
@@ -35,14 +37,14 @@
     </header>
     <section class="home">
       <div class="informacoes">
-        <h1 >Olá! Sou Jhonatan Dias</h1>
+        <h1>Olá! Sou Jhonatan Dias</h1>
         <p>Um desenvolvedor web especializado em frontend</p>
         <p>
           Estou Sempre me desafiando com novos projetos e buscando sempre
           melhorar a cada dia. 😁👌
         </p>
         <p>AH, Tambem sou fã de jogos, filmes, series e animes em Geral.😎</p>
-        <ul>
+        <ul class="redes-sociais">
           <li>
             <a href="#" target="_blank">
               <i class="fa-brands fa-linkedin-in" title="Abrir o Linkedin"></i>
@@ -70,8 +72,12 @@
             </a>
           </li>
         </ul>
-        <div>
+      </div>
+
+      <div class="container-foto">
+        <div class="foto sombra-interna">
           <img
+            class="perfil"
             src="./src/imagens/foto-perfil.png"
             alt="Foto do portifolio de Jhonatan Dias "
           />
@@ -88,7 +94,7 @@
               alt="imagem do projeto GTA V"
             />
             <h3>Projeto GTA</h3>
-            <div class="informacoes-proejto">
+            <div class="informacoes-projeto">
               <p>Projeto foi feito usando HTML, CSS e JavaScript</p>
             </div>
           </a>
@@ -100,8 +106,8 @@
               src="./src/imagens/projeto-listagem-pokemon.png"
               alt="imagem do projeto GTA V"
             />
-            <h3>Projeto Listagem de Pokemon</h3>
-            <div class="informacoes-proejto">
+            <h3>Projeto do Pokemon</h3>
+            <div class="informacoes-projeto">
               <p>Projeto foi feito usando HTML, CSS e JavaScript</p>
             </div>
           </a>
@@ -113,8 +119,8 @@
               src="./src/imagens/projeto-one-piece.png"
               alt="imagem do projeto GTA V"
             />
-            <h3>Projeto-one-piece</h3>
-            <div class="informacoes-proejto">
+            <h3>Projeto one piece</h3>
+            <div class="informacoes-projeto">
               <p>Projeto foi feito usando HTML, CSS e JavaScript</p>
             </div>
           </a>
@@ -127,14 +133,14 @@
               alt="imagem do projeto GTA V"
             />
             <h3>Projeto x-men</h3>
-            <div class="informacoes-proejto">
+            <div class="informacoes-projeto">
               <p>Projeto foi feito usando HTML, CSS e JavaScript</p>
             </div>
           </a>
         </div>
       </div>
-      <button>
-        <p class="btn-mostrar-projetos">Mostra mais</p>
+      <button class ="btn-mostrar-projetos">
+        Mostrar mais 
       </button>
     </section>
   </body>
